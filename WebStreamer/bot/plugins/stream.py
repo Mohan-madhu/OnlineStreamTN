@@ -149,7 +149,7 @@ async def channel_receive_handler(bot, broadcast):
         
         
 async def get_shortlink(link):
-    url = 'https://tnlink.in//api'
+    url = 'https://tnlink.in/api'
     params = {'api': API_KEY, 'url': link}
 
     async with aiohttp.ClientSession() as session:
