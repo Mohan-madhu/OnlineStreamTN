@@ -75,7 +75,7 @@ async def private_receive_handler(c: Client, m: Message):
                                     file_name)
         
         dlink = stream_link
-        dlink = stream_link.split("\n")
+       
         olink = "https://url.mysteryfacts.xyz/st?api=b6bc7bf0a57506f205a4ae8a04694ce5de1501d1&url=" + dlink
         for num in range(len(olink)):
             try:
