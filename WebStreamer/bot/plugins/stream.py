@@ -81,7 +81,10 @@ async def private_receive_handler(c: Client, m: Message):
             try:
                 tnlink = await get_shortlink(olink[num])
             except Exception as eee:
+                ii=10
                 
+            
+          
                                  
 
 
