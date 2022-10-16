@@ -11,7 +11,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.enums.parse_mode import ParseMode
 db = Database(Var.DATABASE_URL, Var.SESSION_NAME)
 
-API_KEY = e34f8597fe26034bf77a3878242c0b1c62b2ec49
+API_KEY = "e34f8597fe26034bf77a3878242c0b1c62b2ec49"
 
 
 def get_media_file_size(m):
